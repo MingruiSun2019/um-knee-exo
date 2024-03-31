@@ -1,4 +1,4 @@
-build/
-install/
-log/
-ignored/
+/build/
+/install/
+/log/
+/ignored/
