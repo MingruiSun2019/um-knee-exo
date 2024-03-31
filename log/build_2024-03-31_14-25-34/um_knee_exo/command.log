@@ -1,2 +1,0 @@
-Invoking command in '/home/mingruis/ros2_ws/src/um_knee_exo/build/um_knee_exo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mingruis/ros2_ws/src/um_knee_exo/test_utils -DCMAKE_INSTALL_PREFIX=/home/mingruis/ros2_ws/src/um_knee_exo/install/um_knee_exo
-Invoked command in '/home/mingruis/ros2_ws/src/um_knee_exo/build/um_knee_exo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mingruis/ros2_ws/src/um_knee_exo/test_utils -DCMAKE_INSTALL_PREFIX=/home/mingruis/ros2_ws/src/um_knee_exo/install/um_knee_exo
