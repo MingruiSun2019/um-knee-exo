@@ -1,0 +1,6 @@
+Invoking command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mingruis/um_knee_exo_ros2ws/test_utils -DCMAKE_INSTALL_PREFIX=/home/mingruis/um_knee_exo_ros2ws/install/test_utils
+Invoked command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mingruis/um_knee_exo_ros2ws/test_utils -DCMAKE_INSTALL_PREFIX=/home/mingruis/um_knee_exo_ros2ws/install/test_utils
+Invoking command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mingruis/um_knee_exo_ros2ws/build/test_utils -- -j4 -l4
+Invoked command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mingruis/um_knee_exo_ros2ws/build/test_utils -- -j4 -l4
+Invoking command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mingruis/um_knee_exo_ros2ws/build/test_utils
+Invoked command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mingruis/um_knee_exo_ros2ws/build/test_utils

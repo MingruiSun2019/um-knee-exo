@@ -1,0 +1,167 @@
+[0.404s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'test_utils']
+[0.405s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8b283400>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['test_utils'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8b283400>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8b283910>)
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.724s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mingruis/um_knee_exo_ros2ws'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extensions ['colcon_pkg']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extension 'colcon_pkg'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extensions ['colcon_meta']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extension 'colcon_meta'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extensions ['ros']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extension 'ros'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extensions ['cmake', 'python']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extension 'cmake'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extension 'python'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extensions ['python_setup_py']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(exo_control) by extension 'python_setup_py'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(exo_visualise) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(exo_visualise) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(exo_visualise) by extension 'ignore_ament_install'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(exo_visualise) by extensions ['colcon_pkg']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(exo_visualise) by extension 'colcon_pkg'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(exo_visualise) by extensions ['colcon_meta']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(exo_visualise) by extension 'colcon_meta'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(exo_visualise) by extensions ['ros']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(exo_visualise) by extension 'ros'
+[0.759s] DEBUG:colcon.colcon_core.package_identification:Package 'exo_visualise' with type 'ros.ament_cmake' and name 'exo_visualise'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(test_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(test_utils) by extension 'ignore'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(test_utils) by extension 'ignore_ament_install'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(test_utils) by extensions ['colcon_pkg']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(test_utils) by extension 'colcon_pkg'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(test_utils) by extensions ['colcon_meta']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(test_utils) by extension 'colcon_meta'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(test_utils) by extensions ['ros']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(test_utils) by extension 'ros'
+[0.763s] DEBUG:colcon.colcon_core.package_identification:Package 'test_utils' with type 'ros.ament_cmake' and name 'test_utils'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extensions ['colcon_meta']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extension 'ros'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extensions ['cmake', 'python']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extension 'cmake'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extension 'python'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extensions ['python_setup_py']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(um_knee_exo) by extension 'python_setup_py'
+[0.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.803s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'exo_visualise' in 'exo_visualise'
+[0.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.810s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'test_utils' build argument 'cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'test_utils' build argument 'cmake_target' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'test_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'test_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'test_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'test_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'test_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'test_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'test_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.973s] DEBUG:colcon.colcon_core.verb:Building package 'test_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mingruis/um_knee_exo_ros2ws/build/test_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mingruis/um_knee_exo_ros2ws/install/test_utils', 'merge_install': False, 'path': '/home/mingruis/um_knee_exo_ros2ws/test_utils', 'symlink_install': False, 'test_result_base': None}
+[0.974s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.977s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.977s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mingruis/um_knee_exo_ros2ws/test_utils' with build type 'ament_cmake'
+[0.978s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mingruis/um_knee_exo_ros2ws/test_utils'
+[0.983s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mingruis/um_knee_exo_ros2ws/test_utils -DCMAKE_INSTALL_PREFIX=/home/mingruis/um_knee_exo_ros2ws/install/test_utils
+[4.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mingruis/um_knee_exo_ros2ws/test_utils -DCMAKE_INSTALL_PREFIX=/home/mingruis/um_knee_exo_ros2ws/install/test_utils
+[4.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mingruis/um_knee_exo_ros2ws/build/test_utils -- -j4 -l4
+[5.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mingruis/um_knee_exo_ros2ws/build/test_utils -- -j4 -l4
+[5.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mingruis/um_knee_exo_ros2ws/build/test_utils
+[5.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_utils)
+[5.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingruis/um_knee_exo_ros2ws/build/test_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mingruis/um_knee_exo_ros2ws/build/test_utils
+[5.448s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils' for CMake module files
+[5.449s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils' for CMake config files
+[5.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_utils', 'cmake_prefix_path')
+[5.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/hook/cmake_prefix_path.ps1'
+[5.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/hook/cmake_prefix_path.dsv'
+[5.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/hook/cmake_prefix_path.sh'
+[5.457s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/lib'
+[5.457s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/bin'
+[5.457s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/lib/pkgconfig/test_utils.pc'
+[5.459s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/lib/python3.8/site-packages'
+[5.459s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/bin'
+[5.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.ps1'
+[5.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.dsv'
+[5.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.sh'
+[5.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.bash'
+[5.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.zsh'
+[5.473s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/colcon-core/packages/test_utils)
+[5.546s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_utils)
+[5.547s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils' for CMake module files
+[5.548s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils' for CMake config files
+[5.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_utils', 'cmake_prefix_path')
+[5.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/hook/cmake_prefix_path.ps1'
+[5.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/hook/cmake_prefix_path.dsv'
+[5.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/hook/cmake_prefix_path.sh'
+[5.554s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/lib'
+[5.555s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/bin'
+[5.555s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/lib/pkgconfig/test_utils.pc'
+[5.555s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/lib/python3.8/site-packages'
+[5.555s] Level 1:colcon.colcon_core.environment:checking '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/bin'
+[5.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.ps1'
+[5.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.dsv'
+[5.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.sh'
+[5.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.bash'
+[5.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.zsh'
+[5.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/colcon-core/packages/test_utils)
+[5.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.567s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.585s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.585s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.632s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.633s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingruis/um_knee_exo_ros2ws/install/local_setup.ps1'
+[5.635s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mingruis/um_knee_exo_ros2ws/install/_local_setup_util_ps1.py'
+[5.638s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingruis/um_knee_exo_ros2ws/install/setup.ps1'
+[5.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingruis/um_knee_exo_ros2ws/install/local_setup.sh'
+[5.642s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mingruis/um_knee_exo_ros2ws/install/_local_setup_util_sh.py'
+[5.643s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingruis/um_knee_exo_ros2ws/install/setup.sh'
+[5.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingruis/um_knee_exo_ros2ws/install/local_setup.bash'
+[5.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingruis/um_knee_exo_ros2ws/install/setup.bash'
+[5.648s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingruis/um_knee_exo_ros2ws/install/local_setup.zsh'
+[5.649s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingruis/um_knee_exo_ros2ws/install/setup.zsh'

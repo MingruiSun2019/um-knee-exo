@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.002350] (-) JobUnselected: {'identifier': 'exo_visualise'}
+[0.002485] (test_utils) JobQueued: {'identifier': 'test_utils', 'dependencies': OrderedDict()}
+[0.002891] (test_utils) JobStarted: {'identifier': 'test_utils'}
+[0.032705] (test_utils) JobProgress: {'identifier': 'test_utils', 'progress': 'cmake'}
+[0.033502] (test_utils) Command: {'cmd': ['/usr/bin/cmake', '/home/mingruis/um_knee_exo_ros2ws/test_utils', '-DCMAKE_INSTALL_PREFIX=/home/mingruis/um_knee_exo_ros2ws/install/test_utils'], 'cwd': '/home/mingruis/um_knee_exo_ros2ws/build/test_utils', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'mingruis'), ('SSH_AGENT_PID', '3592'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mingruis'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/mingruis/.local/share/Trash/files'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2958464'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mingruis'), ('JOURNAL_STREAM', '8:70295'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mingruis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mingruis-desktop:@/tmp/.ICE-unix/3683,unix/mingruis-desktop:/tmp/.ICE-unix/3683'), ('INVOCATION_ID', '45c512a43e3c4aa29ae55d717413972c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bf5b579f48.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mingruis/um_knee_exo_ros2ws/build/test_utils'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099929] (-) TimerEvent: {}
+[0.172459] (test_utils) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.200091] (-) TimerEvent: {}
+[0.297187] (test_utils) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.300194] (-) TimerEvent: {}
+[0.305817] (test_utils) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.400405] (-) TimerEvent: {}
+[0.458475] (test_utils) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.459906] (test_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500593] (-) TimerEvent: {}
+[0.601389] (-) TimerEvent: {}
+[0.642499] (test_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.653959] (test_utils) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.654700] (test_utils) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.660294] (test_utils) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.701677] (-) TimerEvent: {}
+[0.802362] (-) TimerEvent: {}
+[0.832032] (test_utils) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.834592] (test_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902546] (-) TimerEvent: {}
+[1.003246] (-) TimerEvent: {}
+[1.047108] (test_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.099496] (test_utils) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.103893] (test_utils) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.104569] (-) TimerEvent: {}
+[1.107157] (test_utils) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.177542] (test_utils) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.178053] (test_utils) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.205078] (-) TimerEvent: {}
+[1.311256] (-) TimerEvent: {}
+[1.411902] (-) TimerEvent: {}
+[1.512663] (-) TimerEvent: {}
+[1.613928] (-) TimerEvent: {}
+[1.716949] (-) TimerEvent: {}
+[1.817960] (-) TimerEvent: {}
+[1.873727] (test_utils) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.918224] (-) TimerEvent: {}
+[1.972636] (test_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.984689] (test_utils) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.018336] (-) TimerEvent: {}
+[2.119081] (-) TimerEvent: {}
+[2.174490] (test_utils) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.219262] (-) TimerEvent: {}
+[2.239370] (test_utils) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.319396] (-) TimerEvent: {}
+[2.393990] (test_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.419575] (-) TimerEvent: {}
+[2.499253] (test_utils) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.503158] (test_utils) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.508678] (test_utils) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.519767] (-) TimerEvent: {}
+[2.620697] (-) TimerEvent: {}
+[2.724851] (test_utils) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.725333] (-) TimerEvent: {}
+[2.725597] (test_utils) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.825557] (-) TimerEvent: {}
+[2.926334] (-) TimerEvent: {}
+[2.978240] (test_utils) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.978836] (test_utils) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.026508] (-) TimerEvent: {}
+[3.127603] (-) TimerEvent: {}
+[3.228447] (test_utils) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.228976] (-) TimerEvent: {}
+[3.229378] (test_utils) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.329193] (-) TimerEvent: {}
+[3.429903] (-) TimerEvent: {}
+[3.443748] (test_utils) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.447047] (test_utils) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.530982] (-) TimerEvent: {}
+[3.631960] (-) TimerEvent: {}
+[3.734581] (-) TimerEvent: {}
+[3.808498] (test_utils) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.834763] (-) TimerEvent: {}
+[3.935409] (-) TimerEvent: {}
+[3.955065] (test_utils) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.956392] (test_utils) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.956687] (test_utils) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mingruis/um_knee_exo_ros2ws/test_utils/include\n'}
+[3.956891] (test_utils) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.958336] (test_utils) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.958578] (test_utils) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.959454] (test_utils) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.961601] (test_utils) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.961895] (test_utils) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.962238] (test_utils) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.970961] (test_utils) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.984327] (test_utils) StdoutLine: {'line': b'-- Generating done\n'}
+[3.987754] (test_utils) StdoutLine: {'line': b'-- Build files have been written to: /home/mingruis/um_knee_exo_ros2ws/build/test_utils\n'}
+[4.004890] (test_utils) CommandEnded: {'returncode': 0}
+[4.006464] (test_utils) JobProgress: {'identifier': 'test_utils', 'progress': 'build'}
+[4.007900] (test_utils) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mingruis/um_knee_exo_ros2ws/build/test_utils', '--', '-j4', '-l4'], 'cwd': '/home/mingruis/um_knee_exo_ros2ws/build/test_utils', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'mingruis'), ('SSH_AGENT_PID', '3592'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mingruis'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/mingruis/.local/share/Trash/files'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2958464'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mingruis'), ('JOURNAL_STREAM', '8:70295'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mingruis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mingruis-desktop:@/tmp/.ICE-unix/3683,unix/mingruis-desktop:/tmp/.ICE-unix/3683'), ('INVOCATION_ID', '45c512a43e3c4aa29ae55d717413972c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bf5b579f48.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mingruis/um_knee_exo_ros2ws/build/test_utils'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.035657] (-) TimerEvent: {}
+[4.104429] (test_utils) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_executable4\x1b[0m\n'}
+[4.128998] (test_utils) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/cpp_executable4.dir/src/test.c.o\x1b[0m\n'}
+[4.135824] (-) TimerEvent: {}
+[4.195770] (test_utils) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C executable cpp_executable4\x1b[0m\n'}
+[4.236005] (-) TimerEvent: {}
+[4.302197] (test_utils) StdoutLine: {'line': b'[100%] Built target cpp_executable4\n'}
+[4.330578] (test_utils) CommandEnded: {'returncode': 0}
+[4.336840] (-) TimerEvent: {}
+[4.399324] (test_utils) JobProgress: {'identifier': 'test_utils', 'progress': 'install'}
+[4.423512] (test_utils) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mingruis/um_knee_exo_ros2ws/build/test_utils'], 'cwd': '/home/mingruis/um_knee_exo_ros2ws/build/test_utils', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'mingruis'), ('SSH_AGENT_PID', '3592'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mingruis'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/mingruis/.local/share/Trash/files'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3200'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2958464'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mingruis'), ('JOURNAL_STREAM', '8:70295'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mingruis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mingruis-desktop:@/tmp/.ICE-unix/3683,unix/mingruis-desktop:/tmp/.ICE-unix/3683'), ('INVOCATION_ID', '45c512a43e3c4aa29ae55d717413972c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bf5b579f48.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mingruis/um_knee_exo_ros2ws/build/test_utils'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.437031] (-) TimerEvent: {}
+[4.446605] (test_utils) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.447733] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/lib/test_utils/cpp_executable4\n'}
+[4.451017] (test_utils) StdoutLine: {'line': b'-- Set runtime path of "/home/mingruis/um_knee_exo_ros2ws/install/test_utils/lib/test_utils/cpp_executable4" to ""\n'}
+[4.451446] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/ament_index/resource_index/package_run_dependencies/test_utils\n'}
+[4.453649] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/ament_index/resource_index/parent_prefix_path/test_utils\n'}
+[4.455221] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/environment/ament_prefix_path.sh\n'}
+[4.455488] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/environment/ament_prefix_path.dsv\n'}
+[4.455651] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/environment/path.sh\n'}
+[4.455792] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/environment/path.dsv\n'}
+[4.455927] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/local_setup.bash\n'}
+[4.456059] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/local_setup.sh\n'}
+[4.456188] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/local_setup.zsh\n'}
+[4.456354] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/local_setup.dsv\n'}
+[4.456481] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.dsv\n'}
+[4.456606] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/ament_index/resource_index/packages/test_utils\n'}
+[4.456727] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/cmake/test_utilsConfig.cmake\n'}
+[4.456846] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/cmake/test_utilsConfig-version.cmake\n'}
+[4.456963] (test_utils) StdoutLine: {'line': b'-- Installing: /home/mingruis/um_knee_exo_ros2ws/install/test_utils/share/test_utils/package.xml\n'}
+[4.463371] (test_utils) CommandEnded: {'returncode': 0}
+[4.537294] (-) TimerEvent: {}
+[4.588007] (test_utils) JobEnded: {'identifier': 'test_utils', 'rc': 0}
+[4.591947] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+source;share/test_utils/local_setup.bash
+source;share/test_utils/local_setup.dsv
+source;share/test_utils/local_setup.sh
+source;share/test_utils/local_setup.zsh
